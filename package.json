@@ -2,5 +2,8 @@
 	"name": "project-template",
 	"devDependencies": {
 		"lerna": "^2.0.0"
+	},
+	"scripts": {
+		"dev": "node packages/package-server/index.js"
 	}
 }
