@@ -35,7 +35,7 @@ module.exports = class Logger {
         try {
             if(config.logger.logFile) {
                 fs.appendFile(
-                    path.resolve(__dirname, '../../', config.logger.logFile),
+                    path.resolve(__dirname, '..', '..', config.logger.logFile),
                     stripAnsi(output) + "\n",
                     'utf8',
                     (err) => {
