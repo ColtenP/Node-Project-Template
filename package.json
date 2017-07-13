@@ -1,0 +1,6 @@
+{
+	"name": "project-template",
+	"devDependencies": {
+		"lerna": "^2.0.0"
+	}
+}

@@ -1,0 +1,12 @@
+{
+    "name": "package-server",
+    "version": "0.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "express": "^4.15.3",
+        "package-config": "^0.0.0",
+        "package-logger": "^0.0.0",
+        "package-api": "^0.0.0",
+        "package-client": "^0.0.0"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "package-logger",
+    "version": "0.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "chalk": "^2.0.1",
+        "moment": "^2.18.1",
+        "package-config": "^0.0.0",
+        "strip-ansi": "^4.0.0"
+    }
+}
