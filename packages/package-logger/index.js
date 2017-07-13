@@ -45,7 +45,6 @@ module.exports = class Logger {
                 )
             }
         } catch(e) {
-            console.log(e);
             return;
         }
     }

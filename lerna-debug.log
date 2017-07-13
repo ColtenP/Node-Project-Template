@@ -1,0 +1,739 @@
+0 silly input []
+1 silly flags { _: [ 'bootstrap' ], args: [] }
+2 verbose rootPath C:\Users\Colten\Projects\Node-Project-Template
+3 info version 2.0.0
+4 silly existsSync C:\Users\Colten\Projects\Node-Project-Template\VERSION
+5 silly initialize attempt
+6 silly initialize success
+7 silly execute attempt
+8 info Bootstrapping 6 packages
+9 info lifecycle preinstall
+10 silly runScript preinstall package-client
+11 silly package-client
+12 silly runScript preinstall package-config
+13 silly package-config
+14 silly runScript preinstall package-logger
+15 silly package-logger
+16 silly runScript preinstall package-api
+17 silly package-api
+18 silly runScript preinstall package-database
+19 silly package-database
+20 silly runScript preinstall package-server
+21 silly package-server
+22 silly hasMatchingDependency package-api package-config
+23 silly hasMatchingDependency package-api package-logger
+24 silly hasMatchingDependency package-database package-config
+25 silly hasMatchingDependency package-database package-logger
+26 silly hasMatchingDependency package-logger package-config
+27 silly hasMatchingDependency package-server package-config
+28 silly hasMatchingDependency package-server package-logger
+29 silly hasMatchingDependency package-server package-api
+30 silly hasMatchingDependency package-server package-client
+31 silly hasDependencyInstalled package-api express
+32 silly dependencyIsSatisfied [ 'express',
+32 silly dependencyIsSatisfied   '^4.15.3',
+32 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-api\\node_modules' ]
+33 verbose dependencyIsSatisfied express false
+34 silly hasDependencyInstalled package-server express
+35 silly dependencyIsSatisfied [ 'express',
+35 silly dependencyIsSatisfied   '^4.15.3',
+35 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-server\\node_modules' ]
+36 verbose dependencyIsSatisfied express false
+37 silly hasDependencyInstalled package-client express
+38 silly dependencyIsSatisfied [ 'express',
+38 silly dependencyIsSatisfied   '^4.14.1',
+38 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+39 verbose dependencyIsSatisfied express false
+40 silly hasDependencyInstalled package-client autoprefixer
+41 silly dependencyIsSatisfied [ 'autoprefixer',
+41 silly dependencyIsSatisfied   '^6.7.2',
+41 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+42 verbose dependencyIsSatisfied autoprefixer false
+43 silly hasDependencyInstalled package-client babel-loader
+44 silly dependencyIsSatisfied [ 'babel-loader',
+44 silly dependencyIsSatisfied   '^6.2.10',
+44 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+45 verbose dependencyIsSatisfied babel-loader false
+46 silly hasDependencyInstalled package-client babel-plugin-transform-runtime
+47 silly dependencyIsSatisfied [ 'babel-plugin-transform-runtime',
+47 silly dependencyIsSatisfied   '^6.22.0',
+47 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+48 verbose dependencyIsSatisfied babel-plugin-transform-runtime false
+49 silly hasDependencyInstalled package-client babel-preset-env
+50 silly dependencyIsSatisfied [ 'babel-preset-env',
+50 silly dependencyIsSatisfied   '^1.6.0',
+50 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+51 verbose dependencyIsSatisfied babel-preset-env false
+52 silly hasDependencyInstalled package-client babel-preset-stage-2
+53 silly dependencyIsSatisfied [ 'babel-preset-stage-2',
+53 silly dependencyIsSatisfied   '^6.22.0',
+53 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+54 verbose dependencyIsSatisfied babel-preset-stage-2 false
+55 silly hasDependencyInstalled package-client babel-register
+56 silly dependencyIsSatisfied [ 'babel-register',
+56 silly dependencyIsSatisfied   '^6.22.0',
+56 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+57 verbose dependencyIsSatisfied babel-register false
+58 silly hasDependencyInstalled package-client chalk
+59 silly dependencyIsSatisfied [ 'chalk',
+59 silly dependencyIsSatisfied   '^1.1.3',
+59 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+60 verbose dependencyIsSatisfied chalk false
+61 silly hasDependencyInstalled package-logger chalk
+62 silly dependencyIsSatisfied [ 'chalk',
+62 silly dependencyIsSatisfied   '^2.0.1',
+62 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-logger\\node_modules' ]
+63 verbose dependencyIsSatisfied chalk false
+64 silly hasDependencyInstalled package-client connect-history-api-fallback
+65 silly dependencyIsSatisfied [ 'connect-history-api-fallback',
+65 silly dependencyIsSatisfied   '^1.3.0',
+65 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+66 verbose dependencyIsSatisfied connect-history-api-fallback false
+67 silly hasDependencyInstalled package-client copy-webpack-plugin
+68 silly dependencyIsSatisfied [ 'copy-webpack-plugin',
+68 silly dependencyIsSatisfied   '^4.0.1',
+68 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+69 verbose dependencyIsSatisfied copy-webpack-plugin false
+70 silly hasDependencyInstalled package-client css-loader
+71 silly dependencyIsSatisfied [ 'css-loader',
+71 silly dependencyIsSatisfied   '^0.28.0',
+71 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+72 verbose dependencyIsSatisfied css-loader false
+73 silly hasDependencyInstalled package-client eventsource-polyfill
+74 silly dependencyIsSatisfied [ 'eventsource-polyfill',
+74 silly dependencyIsSatisfied   '^0.9.6',
+74 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+75 verbose dependencyIsSatisfied eventsource-polyfill false
+76 silly hasDependencyInstalled package-client extract-text-webpack-plugin
+77 silly dependencyIsSatisfied [ 'extract-text-webpack-plugin',
+77 silly dependencyIsSatisfied   '^2.0.0',
+77 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+78 verbose dependencyIsSatisfied extract-text-webpack-plugin false
+79 silly hasDependencyInstalled package-client file-loader
+80 silly dependencyIsSatisfied [ 'file-loader',
+80 silly dependencyIsSatisfied   '^0.11.1',
+80 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+81 verbose dependencyIsSatisfied file-loader false
+82 silly hasDependencyInstalled package-client friendly-errors-webpack-plugin
+83 silly dependencyIsSatisfied [ 'friendly-errors-webpack-plugin',
+83 silly dependencyIsSatisfied   '^1.1.3',
+83 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+84 verbose dependencyIsSatisfied friendly-errors-webpack-plugin false
+85 silly hasDependencyInstalled package-client html-webpack-plugin
+86 silly dependencyIsSatisfied [ 'html-webpack-plugin',
+86 silly dependencyIsSatisfied   '^2.28.0',
+86 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+87 verbose dependencyIsSatisfied html-webpack-plugin false
+88 silly hasDependencyInstalled package-client http-proxy-middleware
+89 silly dependencyIsSatisfied [ 'http-proxy-middleware',
+89 silly dependencyIsSatisfied   '^0.17.3',
+89 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+90 verbose dependencyIsSatisfied http-proxy-middleware false
+91 silly hasDependencyInstalled package-client morgan
+92 silly dependencyIsSatisfied [ 'morgan',
+92 silly dependencyIsSatisfied   '^1.8.2',
+92 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+93 verbose dependencyIsSatisfied morgan false
+94 silly hasDependencyInstalled package-client opn
+95 silly dependencyIsSatisfied [ 'opn',
+95 silly dependencyIsSatisfied   '^4.0.2',
+95 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+96 verbose dependencyIsSatisfied opn false
+97 silly hasDependencyInstalled package-client optimize-css-assets-webpack-plugin
+98 silly dependencyIsSatisfied [ 'optimize-css-assets-webpack-plugin',
+98 silly dependencyIsSatisfied   '^1.3.0',
+98 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+99 verbose dependencyIsSatisfied optimize-css-assets-webpack-plugin false
+100 silly hasDependencyInstalled package-client ora
+101 silly dependencyIsSatisfied [ 'ora',
+101 silly dependencyIsSatisfied   '^1.2.0',
+101 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+102 verbose dependencyIsSatisfied ora false
+103 silly hasDependencyInstalled package-database ora
+104 silly dependencyIsSatisfied [ 'ora',
+104 silly dependencyIsSatisfied   '^1.3.0',
+104 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-database\\node_modules' ]
+105 verbose dependencyIsSatisfied ora false
+106 silly hasDependencyInstalled package-client rimraf
+107 silly dependencyIsSatisfied [ 'rimraf',
+107 silly dependencyIsSatisfied   '^2.6.0',
+107 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+108 verbose dependencyIsSatisfied rimraf false
+109 silly hasDependencyInstalled package-client semver
+110 silly dependencyIsSatisfied [ 'semver',
+110 silly dependencyIsSatisfied   '^5.3.0',
+110 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+111 verbose dependencyIsSatisfied semver false
+112 silly hasDependencyInstalled package-client shelljs
+113 silly dependencyIsSatisfied [ 'shelljs',
+113 silly dependencyIsSatisfied   '^0.7.6',
+113 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+114 verbose dependencyIsSatisfied shelljs false
+115 silly hasDependencyInstalled package-client url-loader
+116 silly dependencyIsSatisfied [ 'url-loader',
+116 silly dependencyIsSatisfied   '^0.5.8',
+116 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+117 verbose dependencyIsSatisfied url-loader false
+118 silly hasDependencyInstalled package-client vue-loader
+119 silly dependencyIsSatisfied [ 'vue-loader',
+119 silly dependencyIsSatisfied   '^12.1.0',
+119 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+120 verbose dependencyIsSatisfied vue-loader false
+121 silly hasDependencyInstalled package-client vue-style-loader
+122 silly dependencyIsSatisfied [ 'vue-style-loader',
+122 silly dependencyIsSatisfied   '^3.0.1',
+122 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+123 verbose dependencyIsSatisfied vue-style-loader false
+124 silly hasDependencyInstalled package-client vue-template-compiler
+125 silly dependencyIsSatisfied [ 'vue-template-compiler',
+125 silly dependencyIsSatisfied   '^2.3.3',
+125 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+126 verbose dependencyIsSatisfied vue-template-compiler false
+127 silly hasDependencyInstalled package-client webpack
+128 silly dependencyIsSatisfied [ 'webpack',
+128 silly dependencyIsSatisfied   '^2.6.1',
+128 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+129 verbose dependencyIsSatisfied webpack false
+130 silly hasDependencyInstalled package-client webpack-bundle-analyzer
+131 silly dependencyIsSatisfied [ 'webpack-bundle-analyzer',
+131 silly dependencyIsSatisfied   '^2.2.1',
+131 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+132 verbose dependencyIsSatisfied webpack-bundle-analyzer false
+133 silly hasDependencyInstalled package-client webpack-dev-middleware
+134 silly dependencyIsSatisfied [ 'webpack-dev-middleware',
+134 silly dependencyIsSatisfied   '^1.10.0',
+134 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+135 verbose dependencyIsSatisfied webpack-dev-middleware false
+136 silly hasDependencyInstalled package-client webpack-hot-middleware
+137 silly dependencyIsSatisfied [ 'webpack-hot-middleware',
+137 silly dependencyIsSatisfied   '^2.18.0',
+137 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+138 verbose dependencyIsSatisfied webpack-hot-middleware false
+139 silly hasDependencyInstalled package-client webpack-merge
+140 silly dependencyIsSatisfied [ 'webpack-merge',
+140 silly dependencyIsSatisfied   '^4.1.0',
+140 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+141 verbose dependencyIsSatisfied webpack-merge false
+142 silly hasDependencyInstalled package-client axios
+143 silly dependencyIsSatisfied [ 'axios',
+143 silly dependencyIsSatisfied   '^0.16.2',
+143 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+144 verbose dependencyIsSatisfied axios false
+145 silly hasDependencyInstalled package-client bcrypt
+146 silly dependencyIsSatisfied [ 'bcrypt',
+146 silly dependencyIsSatisfied   '^1.0.2',
+146 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+147 verbose dependencyIsSatisfied bcrypt false
+148 silly hasDependencyInstalled package-client body-parser
+149 silly dependencyIsSatisfied [ 'body-parser',
+149 silly dependencyIsSatisfied   '^1.17.2',
+149 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+150 verbose dependencyIsSatisfied body-parser false
+151 silly hasDependencyInstalled package-client bootstrap
+152 silly dependencyIsSatisfied [ 'bootstrap',
+152 silly dependencyIsSatisfied   '4.0.0-alpha.6',
+152 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+153 verbose dependencyIsSatisfied bootstrap false
+154 silly hasDependencyInstalled package-client express-session
+155 silly dependencyIsSatisfied [ 'express-session',
+155 silly dependencyIsSatisfied   '^1.15.3',
+155 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+156 verbose dependencyIsSatisfied express-session false
+157 silly hasDependencyInstalled package-client mysql2
+158 silly dependencyIsSatisfied [ 'mysql2',
+158 silly dependencyIsSatisfied   '^1.3.5',
+158 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+159 verbose dependencyIsSatisfied mysql2 false
+160 silly hasDependencyInstalled package-database mysql2
+161 silly dependencyIsSatisfied [ 'mysql2',
+161 silly dependencyIsSatisfied   '^1.3.5',
+161 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-database\\node_modules' ]
+162 verbose dependencyIsSatisfied mysql2 false
+163 silly hasDependencyInstalled package-client node-sass
+164 silly dependencyIsSatisfied [ 'node-sass',
+164 silly dependencyIsSatisfied   '^4.5.3',
+164 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+165 verbose dependencyIsSatisfied node-sass false
+166 silly hasDependencyInstalled package-client sass-loader
+167 silly dependencyIsSatisfied [ 'sass-loader',
+167 silly dependencyIsSatisfied   '^6.0.6',
+167 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+168 verbose dependencyIsSatisfied sass-loader false
+169 silly hasDependencyInstalled package-client vue
+170 silly dependencyIsSatisfied [ 'vue',
+170 silly dependencyIsSatisfied   '^2.3.3',
+170 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+171 verbose dependencyIsSatisfied vue false
+172 silly hasDependencyInstalled package-client vue-router
+173 silly dependencyIsSatisfied [ 'vue-router',
+173 silly dependencyIsSatisfied   '^2.7.0',
+173 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+174 verbose dependencyIsSatisfied vue-router false
+175 silly hasDependencyInstalled package-client vuex
+176 silly dependencyIsSatisfied [ 'vuex',
+176 silly dependencyIsSatisfied   '^2.3.1',
+176 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules' ]
+177 verbose dependencyIsSatisfied vuex false
+178 silly hasDependencyInstalled package-logger moment
+179 silly dependencyIsSatisfied [ 'moment',
+179 silly dependencyIsSatisfied   '^2.18.1',
+179 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-logger\\node_modules' ]
+180 verbose dependencyIsSatisfied moment false
+181 silly hasDependencyInstalled package-logger strip-ansi
+182 silly dependencyIsSatisfied [ 'strip-ansi',
+182 silly dependencyIsSatisfied   '^4.0.0',
+182 silly dependencyIsSatisfied   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-logger\\node_modules' ]
+183 verbose dependencyIsSatisfied strip-ansi false
+184 silly root dependencies []
+185 silly leaf dependencies {
+185 silly leaf dependencies   "package-api": [
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "express@^4.15.3",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     }
+185 silly leaf dependencies   ],
+185 silly leaf dependencies   "package-server": [
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "express@^4.15.3",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     }
+185 silly leaf dependencies   ],
+185 silly leaf dependencies   "package-client": [
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "express@^4.14.1",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "autoprefixer@^6.7.2",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "babel-loader@^6.2.10",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "babel-plugin-transform-runtime@^6.22.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "babel-preset-env@^1.6.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "babel-preset-stage-2@^6.22.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "babel-register@^6.22.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "chalk@^1.1.3",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "connect-history-api-fallback@^1.3.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "copy-webpack-plugin@^4.0.1",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "css-loader@^0.28.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "eventsource-polyfill@^0.9.6",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "extract-text-webpack-plugin@^2.0.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "file-loader@^0.11.1",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "friendly-errors-webpack-plugin@^1.1.3",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "html-webpack-plugin@^2.28.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "http-proxy-middleware@^0.17.3",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "morgan@^1.8.2",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "opn@^4.0.2",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "optimize-css-assets-webpack-plugin@^1.3.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "ora@^1.2.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "rimraf@^2.6.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "semver@^5.3.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "shelljs@^0.7.6",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "url-loader@^0.5.8",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "vue-loader@^12.1.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "vue-style-loader@^3.0.1",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "vue-template-compiler@^2.3.3",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "webpack@^2.6.1",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "webpack-bundle-analyzer@^2.2.1",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "webpack-dev-middleware@^1.10.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "webpack-hot-middleware@^2.18.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "webpack-merge@^4.1.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "axios@^0.16.2",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "bcrypt@^1.0.2",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "body-parser@^1.17.2",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "bootstrap@4.0.0-alpha.6",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "express-session@^1.15.3",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "mysql2@^1.3.5",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "node-sass@^4.5.3",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "sass-loader@^6.0.6",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "vue@^2.3.3",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "vue-router@^2.7.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "vuex@^2.3.1",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     }
+185 silly leaf dependencies   ],
+185 silly leaf dependencies   "package-logger": [
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "chalk@^2.0.1",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "moment@^2.18.1",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "strip-ansi@^4.0.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     }
+185 silly leaf dependencies   ],
+185 silly leaf dependencies   "package-database": [
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "ora@^1.3.0",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     },
+185 silly leaf dependencies     {
+185 silly leaf dependencies       "dependency": "mysql2@^1.3.5",
+185 silly leaf dependencies       "isSatisfied": false
+185 silly leaf dependencies     }
+185 silly leaf dependencies   ]
+185 silly leaf dependencies }
+186 info Installing external dependencies
+187 verbose actions 5 actions, concurrency 4
+188 silly installInDir package-api [ 'express@^4.15.3' ]
+189 silly installInDir backup C:\Users\Colten\Projects\Node-Project-Template\packages\package-api\package.json
+190 silly rename [ 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-api\\package.json',
+190 silly rename   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-api\\package.json.lerna_backup' ]
+191 silly installInDir package-server [ 'express@^4.15.3' ]
+192 silly installInDir backup C:\Users\Colten\Projects\Node-Project-Template\packages\package-server\package.json
+193 silly rename [ 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-server\\package.json',
+193 silly rename   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-server\\package.json.lerna_backup' ]
+194 silly installInDir package-client [ 'express@^4.14.1',
+194 silly installInDir   'autoprefixer@^6.7.2',
+194 silly installInDir   'babel-loader@^6.2.10',
+194 silly installInDir   'babel-plugin-transform-runtime@^6.22.0',
+194 silly installInDir   'babel-preset-env@^1.6.0',
+194 silly installInDir   'babel-preset-stage-2@^6.22.0',
+194 silly installInDir   'babel-register@^6.22.0',
+194 silly installInDir   'chalk@^1.1.3',
+194 silly installInDir   'connect-history-api-fallback@^1.3.0',
+194 silly installInDir   'copy-webpack-plugin@^4.0.1',
+194 silly installInDir   'css-loader@^0.28.0',
+194 silly installInDir   'eventsource-polyfill@^0.9.6',
+194 silly installInDir   'extract-text-webpack-plugin@^2.0.0',
+194 silly installInDir   'file-loader@^0.11.1',
+194 silly installInDir   'friendly-errors-webpack-plugin@^1.1.3',
+194 silly installInDir   'html-webpack-plugin@^2.28.0',
+194 silly installInDir   'http-proxy-middleware@^0.17.3',
+194 silly installInDir   'morgan@^1.8.2',
+194 silly installInDir   'opn@^4.0.2',
+194 silly installInDir   'optimize-css-assets-webpack-plugin@^1.3.0',
+194 silly installInDir   'ora@^1.2.0',
+194 silly installInDir   'rimraf@^2.6.0',
+194 silly installInDir   'semver@^5.3.0',
+194 silly installInDir   'shelljs@^0.7.6',
+194 silly installInDir   'url-loader@^0.5.8',
+194 silly installInDir   'vue-loader@^12.1.0',
+194 silly installInDir   'vue-style-loader@^3.0.1',
+194 silly installInDir   'vue-template-compiler@^2.3.3',
+194 silly installInDir   'webpack@^2.6.1',
+194 silly installInDir   'webpack-bundle-analyzer@^2.2.1',
+194 silly installInDir   'webpack-dev-middleware@^1.10.0',
+194 silly installInDir   'webpack-hot-middleware@^2.18.0',
+194 silly installInDir   'webpack-merge@^4.1.0',
+194 silly installInDir   'axios@^0.16.2',
+194 silly installInDir   'bcrypt@^1.0.2',
+194 silly installInDir   'body-parser@^1.17.2',
+194 silly installInDir   'bootstrap@4.0.0-alpha.6',
+194 silly installInDir   'express-session@^1.15.3',
+194 silly installInDir   'mysql2@^1.3.5',
+194 silly installInDir   'node-sass@^4.5.3',
+194 silly installInDir   'sass-loader@^6.0.6',
+194 silly installInDir   'vue@^2.3.3',
+194 silly installInDir   'vue-router@^2.7.0',
+194 silly installInDir   'vuex@^2.3.1' ]
+195 silly installInDir backup C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\package.json
+196 silly rename [ 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\package.json',
+196 silly rename   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\package.json.lerna_backup' ]
+197 silly installInDir package-logger [ 'chalk@^2.0.1', 'moment@^2.18.1', 'strip-ansi@^4.0.0' ]
+198 silly installInDir backup C:\Users\Colten\Projects\Node-Project-Template\packages\package-logger\package.json
+199 silly rename [ 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-logger\\package.json',
+199 silly rename   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-logger\\package.json.lerna_backup' ]
+200 silly installInDir writing tempJson { dependencies: { express: '^4.15.3' } }
+201 silly installInDir writing tempJson { dependencies: { express: '^4.15.3' } }
+202 silly installInDir writing tempJson { dependencies:
+202 silly installInDir    { express: '^4.14.1',
+202 silly installInDir      autoprefixer: '^6.7.2',
+202 silly installInDir      'babel-loader': '^6.2.10',
+202 silly installInDir      'babel-plugin-transform-runtime': '^6.22.0',
+202 silly installInDir      'babel-preset-env': '^1.6.0',
+202 silly installInDir      'babel-preset-stage-2': '^6.22.0',
+202 silly installInDir      'babel-register': '^6.22.0',
+202 silly installInDir      chalk: '^1.1.3',
+202 silly installInDir      'connect-history-api-fallback': '^1.3.0',
+202 silly installInDir      'copy-webpack-plugin': '^4.0.1',
+202 silly installInDir      'css-loader': '^0.28.0',
+202 silly installInDir      'eventsource-polyfill': '^0.9.6',
+202 silly installInDir      'extract-text-webpack-plugin': '^2.0.0',
+202 silly installInDir      'file-loader': '^0.11.1',
+202 silly installInDir      'friendly-errors-webpack-plugin': '^1.1.3',
+202 silly installInDir      'html-webpack-plugin': '^2.28.0',
+202 silly installInDir      'http-proxy-middleware': '^0.17.3',
+202 silly installInDir      morgan: '^1.8.2',
+202 silly installInDir      opn: '^4.0.2',
+202 silly installInDir      'optimize-css-assets-webpack-plugin': '^1.3.0',
+202 silly installInDir      ora: '^1.2.0',
+202 silly installInDir      rimraf: '^2.6.0',
+202 silly installInDir      semver: '^5.3.0',
+202 silly installInDir      shelljs: '^0.7.6',
+202 silly installInDir      'url-loader': '^0.5.8',
+202 silly installInDir      'vue-loader': '^12.1.0',
+202 silly installInDir      'vue-style-loader': '^3.0.1',
+202 silly installInDir      'vue-template-compiler': '^2.3.3',
+202 silly installInDir      webpack: '^2.6.1',
+202 silly installInDir      'webpack-bundle-analyzer': '^2.2.1',
+202 silly installInDir      'webpack-dev-middleware': '^1.10.0',
+202 silly installInDir      'webpack-hot-middleware': '^2.18.0',
+202 silly installInDir      'webpack-merge': '^4.1.0',
+202 silly installInDir      axios: '^0.16.2',
+202 silly installInDir      bcrypt: '^1.0.2',
+202 silly installInDir      'body-parser': '^1.17.2',
+202 silly installInDir      bootstrap: '4.0.0-alpha.6',
+202 silly installInDir      'express-session': '^1.15.3',
+202 silly installInDir      mysql2: '^1.3.5',
+202 silly installInDir      'node-sass': '^4.5.3',
+202 silly installInDir      'sass-loader': '^6.0.6',
+202 silly installInDir      vue: '^2.3.3',
+202 silly installInDir      'vue-router': '^2.7.0',
+202 silly installInDir      vuex: '^2.3.1' } }
+203 silly installInDir writing tempJson { dependencies: { chalk: '^2.0.1', moment: '^2.18.1', 'strip-ansi': '^4.0.0' } }
+204 silly getExecOpts { cwd: 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client' }
+205 silly installInDir [ 'npm', [ 'install' ] ]
+206 silly getExecOpts { cwd: 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-api' }
+207 silly installInDir [ 'npm', [ 'install' ] ]
+208 silly getExecOpts { cwd: 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-logger' }
+209 silly installInDir [ 'npm', [ 'install' ] ]
+210 silly getExecOpts { cwd: 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-server' }
+211 silly installInDir [ 'npm', [ 'install' ] ]
+212 silly installInDir cleanup C:\Users\Colten\Projects\Node-Project-Template\packages\package-server\package.json
+213 silly renameSync [ 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-server\\package.json.lerna_backup',
+213 silly renameSync   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-server\\package.json' ]
+214 verbose installed leaf package-server
+215 silly installInDir package-database [ 'ora@^1.3.0', 'mysql2@^1.3.5' ]
+216 silly installInDir backup C:\Users\Colten\Projects\Node-Project-Template\packages\package-database\package.json
+217 silly rename [ 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-database\\package.json',
+217 silly rename   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-database\\package.json.lerna_backup' ]
+218 silly installInDir writing tempJson { dependencies: { ora: '^1.3.0', mysql2: '^1.3.5' } }
+219 silly getExecOpts { cwd: 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-database' }
+220 silly installInDir [ 'npm', [ 'install' ] ]
+221 silly installInDir cleanup C:\Users\Colten\Projects\Node-Project-Template\packages\package-api\package.json
+222 silly renameSync [ 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-api\\package.json.lerna_backup',
+222 silly renameSync   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-api\\package.json' ]
+223 verbose installed leaf package-api
+224 silly installInDir cleanup C:\Users\Colten\Projects\Node-Project-Template\packages\package-database\package.json
+225 silly renameSync [ 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-database\\package.json.lerna_backup',
+225 silly renameSync   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-database\\package.json' ]
+226 verbose installed leaf package-database
+227 silly installInDir cleanup C:\Users\Colten\Projects\Node-Project-Template\packages\package-logger\package.json
+228 silly renameSync [ 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-logger\\package.json.lerna_backup',
+228 silly renameSync   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-logger\\package.json' ]
+229 verbose installed leaf package-logger
+230 silly installInDir cleanup C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\package.json
+231 silly renameSync [ 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\package.json.lerna_backup',
+231 silly renameSync   'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\package.json' ]
+232 verbose installed leaf package-client
+233 error execute Error: Command failed: npm install
+233 error execute npm ERR! path C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\fsevents\node_modules\dashdash\node_modules
+233 error execute npm ERR! code EPERM
+233 error execute npm ERR! errno -4048
+233 error execute npm ERR! syscall scandir
+233 error execute npm ERR! Error: EPERM: operation not permitted, scandir 'C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\fsevents\node_modules\dashdash\node_modules'
+233 error execute npm ERR!  { Error: EPERM: operation not permitted, scandir 'C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\fsevents\node_modules\dashdash\node_modules'
+233 error execute npm ERR!   stack: 'Error: EPERM: operation not permitted, scandir \'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules\'',
+233 error execute npm ERR!   errno: -4048,
+233 error execute npm ERR!   code: 'EPERM',
+233 error execute npm ERR!   syscall: 'scandir',
+233 error execute npm ERR!   path: 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules' }
+233 error execute npm ERR!
+233 error execute npm ERR! Please try running this command again as root/Administrator.
+233 error execute
+233 error execute npm ERR! A complete log of this run can be found in:
+233 error execute npm ERR!     C:\Users\Colten\AppData\Roaming\npm-cache\_logs\2017-07-13T02_29_23_793Z-debug.log
+233 error execute
+233 error execute > node-sass@4.5.3 install C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\node-sass
+233 error execute > node scripts/install.js
+233 error execute
+233 error execute Downloading binary from https://github.com/sass/node-sass/releases/download/v4.5.3/win32-x64-57_binding.node
+233 error execute Download complete
+233 error execute Binary saved to C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\node-sass\vendor\win32-x64-57\binding.node
+233 error execute Caching binary to C:\Users\Colten\AppData\Roaming\npm-cache\node-sass\4.5.3\win32-x64-57_binding.node
+233 error execute
+233 error execute > bcrypt@1.0.2 install C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\bcrypt
+233 error execute > node-pre-gyp install --fallback-to-build
+233 error execute
+233 error execute [bcrypt] Success: "C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\bcrypt\lib\binding\bcrypt_lib.node" is installed via remote
+233 error execute
+233 error execute > node-sass@4.5.3 postinstall C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\node-sass
+233 error execute > node scripts/build.js
+233 error execute
+233 error execute Binary found at C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\node-sass\vendor\win32-x64-57\binding.node
+233 error execute Testing binary
+233 error execute Binary is fine
+233 error execute
+233 error execute     at Promise.all.then.arr (C:\Users\Colten\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:210:11)
+233 error execute     at <anonymous>
+233 error execute     at process._tickCallback (internal/process/next_tick.js:169:7)
+233 error execute  callback with error
+233 error execute  { Error: Command failed: npm install
+233 error execute npm ERR! path C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\fsevents\node_modules\dashdash\node_modules
+233 error execute npm ERR! code EPERM
+233 error execute npm ERR! errno -4048
+233 error execute npm ERR! syscall scandir
+233 error execute npm ERR! Error: EPERM: operation not permitted, scandir 'C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\fsevents\node_modules\dashdash\node_modules'
+233 error execute npm ERR!  { Error: EPERM: operation not permitted, scandir 'C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\fsevents\node_modules\dashdash\node_modules'
+233 error execute npm ERR!   stack: 'Error: EPERM: operation not permitted, scandir \'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules\'',
+233 error execute npm ERR!   errno: -4048,
+233 error execute npm ERR!   code: 'EPERM',
+233 error execute npm ERR!   syscall: 'scandir',
+233 error execute npm ERR!   path: 'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules' }
+233 error execute npm ERR!
+233 error execute npm ERR! Please try running this command again as root/Administrator.
+233 error execute
+233 error execute npm ERR! A complete log of this run can be found in:
+233 error execute npm ERR!     C:\Users\Colten\AppData\Roaming\npm-cache\_logs\2017-07-13T02_29_23_793Z-debug.log
+233 error execute
+233 error execute > node-sass@4.5.3 install C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\node-sass
+233 error execute > node scripts/install.js
+233 error execute
+233 error execute Downloading binary from https://github.com/sass/node-sass/releases/download/v4.5.3/win32-x64-57_binding.node
+233 error execute Download complete
+233 error execute Binary saved to C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\node-sass\vendor\win32-x64-57\binding.node
+233 error execute Caching binary to C:\Users\Colten\AppData\Roaming\npm-cache\node-sass\4.5.3\win32-x64-57_binding.node
+233 error execute
+233 error execute > bcrypt@1.0.2 install C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\bcrypt
+233 error execute > node-pre-gyp install --fallback-to-build
+233 error execute
+233 error execute [bcrypt] Success: "C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\bcrypt\lib\binding\bcrypt_lib.node" is installed via remote
+233 error execute
+233 error execute > node-sass@4.5.3 postinstall C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\node-sass
+233 error execute > node scripts/build.js
+233 error execute
+233 error execute Binary found at C:\Users\Colten\Projects\Node-Project-Template\packages\package-client\node_modules\node-sass\vendor\win32-x64-57\binding.node
+233 error execute Testing binary
+233 error execute Binary is fine
+233 error execute
+233 error execute     at Promise.all.then.arr (C:\Users\Colten\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:210:11)
+233 error execute     at <anonymous>
+233 error execute     at process._tickCallback (internal/process/next_tick.js:169:7)
+233 error execute   stack: 'Error: Command failed: npm install\nnpm ERR! path C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules\nnpm ERR! code EPERM\nnpm ERR! errno -4048\nnpm ERR! syscall scandir\nnpm ERR! Error: EPERM: operation not permitted, scandir \'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules\'\nnpm ERR!  { Error: EPERM: operation not permitted, scandir \'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules\'\nnpm ERR!   stack: \'Error: EPERM: operation not permitted, scandir \\\'C:\\\\Users\\\\Colten\\\\Projects\\\\Node-Project-Template\\\\packages\\\\package-client\\\\node_modules\\\\fsevents\\\\node_modules\\\\dashdash\\\\node_modules\\\'\',\nnpm ERR!   errno: -4048,\nnpm ERR!   code: \'EPERM\',\nnpm ERR!   syscall: \'scandir\',\nnpm ERR!   path: \'C:\\\\Users\\\\Colten\\\\Projects\\\\Node-Project-Template\\\\packages\\\\package-client\\\\node_modules\\\\fsevents\\\\node_modules\\\\dashdash\\\\node_modules\' }\nnpm ERR! \nnpm ERR! Please try running this command again as root/Administrator.\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     C:\\Users\\Colten\\AppData\\Roaming\\npm-cache\\_logs\\2017-07-13T02_29_23_793Z-debug.log\n\n> node-sass@4.5.3 install C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\node-sass\n> node scripts/install.js\n\nDownloading binary from https://github.com/sass/node-sass/releases/download/v4.5.3/win32-x64-57_binding.node\nDownload complete\nBinary saved to C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\node-sass\\vendor\\win32-x64-57\\binding.node\nCaching binary to C:\\Users\\Colten\\AppData\\Roaming\\npm-cache\\node-sass\\4.5.3\\win32-x64-57_binding.node\n\n> bcrypt@1.0.2 install C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\bcrypt\n> node-pre-gyp install --fallback-to-build\n\n[bcrypt] Success: "C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\bcrypt\\lib\\binding\\bcrypt_lib.node" is installed via remote\n\n> node-sass@4.5.3 postinstall C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\node-sass\n> node scripts/build.js\n\nBinary found at C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\node-sass\\vendor\\win32-x64-57\\binding.node\nTesting binary\nBinary is fine\n\n    at Promise.all.then.arr (C:\\Users\\Colten\\AppData\\Roaming\\npm\\node_modules\\lerna\\node_modules\\execa\\index.js:210:11)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:169:7)',
+233 error execute   code: 4294963248,
+233 error execute   killed: false,
+233 error execute   stdout: '\n> node-sass@4.5.3 install C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\node-sass\n> node scripts/install.js\n\nDownloading binary from https://github.com/sass/node-sass/releases/download/v4.5.3/win32-x64-57_binding.node\nDownload complete\nBinary saved to C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\node-sass\\vendor\\win32-x64-57\\binding.node\nCaching binary to C:\\Users\\Colten\\AppData\\Roaming\\npm-cache\\node-sass\\4.5.3\\win32-x64-57_binding.node\n\n> bcrypt@1.0.2 install C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\bcrypt\n> node-pre-gyp install --fallback-to-build\n\n[bcrypt] Success: "C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\bcrypt\\lib\\binding\\bcrypt_lib.node" is installed via remote\n\n> node-sass@4.5.3 postinstall C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\node-sass\n> node scripts/build.js\n\nBinary found at C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\node-sass\\vendor\\win32-x64-57\\binding.node\nTesting binary\nBinary is fine\n',
+233 error execute   stderr: 'npm ERR! path C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules\nnpm ERR! code EPERM\nnpm ERR! errno -4048\nnpm ERR! syscall scandir\nnpm ERR! Error: EPERM: operation not permitted, scandir \'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules\'\nnpm ERR!  { Error: EPERM: operation not permitted, scandir \'C:\\Users\\Colten\\Projects\\Node-Project-Template\\packages\\package-client\\node_modules\\fsevents\\node_modules\\dashdash\\node_modules\'\nnpm ERR!   stack: \'Error: EPERM: operation not permitted, scandir \\\'C:\\\\Users\\\\Colten\\\\Projects\\\\Node-Project-Template\\\\packages\\\\package-client\\\\node_modules\\\\fsevents\\\\node_modules\\\\dashdash\\\\node_modules\\\'\',\nnpm ERR!   errno: -4048,\nnpm ERR!   code: \'EPERM\',\nnpm ERR!   syscall: \'scandir\',\nnpm ERR!   path: \'C:\\\\Users\\\\Colten\\\\Projects\\\\Node-Project-Template\\\\packages\\\\package-client\\\\node_modules\\\\fsevents\\\\node_modules\\\\dashdash\\\\node_modules\' }\nnpm ERR! \nnpm ERR! Please try running this command again as root/Administrator.\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     C:\\Users\\Colten\\AppData\\Roaming\\npm-cache\\_logs\\2017-07-13T02_29_23_793Z-debug.log\n',
+233 error execute   failed: true,
+233 error execute   signal: null,
+233 error execute   cmd: 'npm install',
+233 error execute   timedOut: false }
