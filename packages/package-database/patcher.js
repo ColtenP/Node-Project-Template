@@ -100,7 +100,7 @@ class Patcher {
         try {
             let files = Patcher.getFiles(to, from);
 
-            const config = require('transport-co-config');
+            const config = require('package-config');
             config.database.multipleStatements = true;
             const db = require('./index');
             const connection = await db;
